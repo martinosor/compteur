@@ -1,0 +1,220 @@
+<HTML>
+
+<SCRIPT language=JavaScript>
+var tabbi=new Array("img/0i.png","img/1i.png","img/2i.png","img/3i.png","img/4i.png","img/5i.png","img/6i.png");
+var tabb=new Array("img/0.png","img/1.png","img/2.png","img/3.png","img/4.png","img/5.png","img/6.png");
+var vri=0;
+var vti=0;
+var vsi=0;
+var vr=0;
+var vt=0;
+var vs=0;
+
+// --------------------------------------------------------------------------
+function pri() {
+	if (vri!=6)  {
+		vri=vri+1;
+		document.images['VRI'].src=tabbi[vri];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function mri() {
+	if (vri!=0)  {
+		vri=vri-1;
+		document.images['VRI'].src=tabbi[vri];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function pti() {
+	if (vti!=6)  {
+		vti=vti+1;
+		document.images['VTI'].src=tabbi[vti];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function mti() {
+	if (vti!=0)  {
+		vti=vti-1;
+		document.images['VTI'].src=tabbi[vti];
+	}
+}
+// --------------------------------------------------------------------------
+
+
+// --------------------------------------------------------------------------
+function psi() {
+	if (vsi!=6)  {
+		vsi=vsi+1;
+		document.images['VSI'].src=tabbi[vsi];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function msi() {
+	if (vsi!=0)  {
+		vsi=vsi-1;
+		document.images['VSI'].src=tabbi[vsi];
+	}
+}
+// --------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --------------------------------------------------------------------------
+function pr() {
+	if (vr!=6)  {
+		vr=vr+1;
+		document.images['VR'].src=tabb[vr];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function mr() {
+	if (vr!=0)  {
+		vr=vr-1;
+		document.images['VR'].src=tabb[vr];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function pt() {
+	if (vt!=6)  {
+		vt=vt+1;
+		document.images['VT'].src=tabb[vt];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function mt() {
+	if (vt!=0)  {
+		vt=vt-1;
+		document.images['VT'].src=tabb[vt];
+	}
+}
+// --------------------------------------------------------------------------
+
+
+// --------------------------------------------------------------------------
+function ps() {
+	if (vs!=6)  {
+		vs=vs+1;
+		document.images['VS'].src=tabb[vs];
+	}
+}
+// --------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------
+function ms() {
+	if (vs!=0)  {
+		vs=vs-1;
+		document.images['VS'].src=tabb[vs];
+	}
+}
+// --------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+ <head>
+    <title>Titre du document</title>
+    <style>
+      th, td {
+        padding: 10px;
+        border: 0px solid #666;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width:500; margin:30px auto; border-collapse:collapse;">
+      
+	<tr bgcolor=#000000>
+        	<th><img src="img/relancei.png"></th>
+		<th><a href="JavaScript:pri();"><img NAME="PRI" src="img/plusi.png"></a></th>
+		<th><img NAME="VRI" src="img/0i.png"></th>
+		<th><a href="JavaScript:mri();"><img NAME="MRI" src="img/moinsi.png"></a></th>
+      	</tr>
+      
+
+
+	<tr bgcolor=#000000>
+        	<th><img src="img/touri.png"></th>
+		<th><a href="JavaScript:pti();"><img NAME="PTI" src="img/plusi.png"></a></th>
+		<th><img NAME="VTI" src="img/0i.png"></th>
+		<th><a href="JavaScript:mti();"><img NAME="MTI" src="img/moinsi.png"></a></th>
+      	</tr>
+
+
+	<tr bgcolor=#000000>
+        	<th><img src="img/scorei.png"></th>
+		<th><a href="JavaScript:psi();"><img NAME="PSI" src="img/plusi.png"></a></th>
+		<th><img NAME="VSI" src="img/0i.png"></th>
+        	<th><a href="JavaScript:msi();"><img NAME="MSI" src="img/moinsi.png"></a></th>
+      	</tr>
+
+
+	<tr bgcolor=#FFFFFF>
+        	<th><img src="img/score.png"></th>
+        	<th><a href="JavaScript:ms();"><img NAME="MS" src="img/moins.png"></a></th>
+		<th><img NAME="VS" src="img/0.png"></th>
+		<th><a href="JavaScript:ps();"><img NAME="PS" src="img/plus.png"></a></th>
+      	</tr>
+
+
+	<tr bgcolor=#FFFFFF>
+        	<th><img src="img/tour.png"></th>
+        	<th><a href="JavaScript:mt();"><img NAME="MT" src="img/moins.png"></a></th>
+		<th><img NAME="VT" src="img/0.png"></th>
+		<th><a href="JavaScript:pt();"><img NAME="PT" src="img/plus.png"></a></th>
+      	</tr>
+
+
+	<tr bgcolor=#FFFFFF>
+        	<th><img src="img/relance.png"></th>
+        	<th><a href="JavaScript:mr();"><img NAME="MR" src="img/moins.png"></a></th>
+		<th><img NAME="VR" src="img/0.png"></th>
+		<th><a href="JavaScript:pr();"><img NAME="PR" src="img/plus.png"></a></th>
+      	</tr>
+
+
+    </table>
+  </body>
+
+
+
+
+</HTML>
